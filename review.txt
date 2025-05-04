@@ -1,0 +1,4952 @@
+[
+  {
+    "tokenAddress": "0x97dac8037b1085175522b85e946dfcb3b86cf572",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0xde679f6130be55fe7a2db4a638c419c9d8e10c9a",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x0739feed3d681cffc8834d6e1149638bdba683784218eb823f2b6254c7c8eca5",
+        "from": "0xbc6be6d54b98b1f2fe232ad3d9cd68c4911de95b",
+        "ownershipTransferredFound": false,
+        "isBundleContractCreationAndAddLiq": true,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403367,
+        "tokenHoldersCount": 0,
+        "traceRemoveLiq": null,
+        "successDate": 1746276647,
+        "receivedDate": 1746276648870,
+        "getTokenHoldersCountDurationSec": 0.6604409100000048,
+        "findLpAddressDurationSec": 2.199568246999988,
+        "getTokenHoldersDurationSec": 0.10159070199995768,
+        "isKnownLpTokenDurationSec": 0.000011974000080954284,
+        "checkRouterDurationSec": 0.03800010599999223,
+        "decodeAddLiquidityDurationSec": 2.3393356089999724,
+        "snipeDate": 1746276657153,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        }
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 7,
+        "value": 7,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [],
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=9999)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403371,
+      "retryUntilBlock": 22403371,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "316227766016837933",
+      "currentLpSupply": "316667840619186181",
+      "flags": {}
+    },
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403502,
+        22403503,
+        22403504,
+        22403505,
+        22403506
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403506
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x0cec9cb39bb42a271185d46e2bc706663ac3030c",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x37619ecf421b5f6336096f1447828b8b8c9555cc",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x8742eef87a9661d9212aef21acc28126ff233f2562ac339244412a1c625bcd22",
+        "from": "0x3b72f5fa94f20ff0a0c482f26f7208b946a48406",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403375,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 103,
+          "found": 12,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 1.788121593000018,
+              "fetchSec": 1.5394136580000048,
+              "parseSec": 0.24842213299998547,
+              "customParseSec": 0.00000889699999243021
+            }
+          }
+        },
+        "successDate": 1746276743,
+        "receivedDate": 1746276745187,
+        "getTokenHoldersCountDurationSec": 0.8729698759999592,
+        "findLpAddressDurationSec": 0.28659402700001374,
+        "getTokenHoldersDurationSec": 0.07526279100001557,
+        "isKnownLpTokenDurationSec": 0.00001412099995650351,
+        "checkRouterDurationSec": 0.07028524600004311,
+        "decodeAddLiquidityDurationSec": 0.4322947699999786,
+        "snipeDate": 1746276746496,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        }
+      }
+    ],
+    "taxData": null,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [
+      {
+        "type": "devApproveLP",
+        "hash": "0x09d18c0e65dfb29fb17d17298722a6373e70f01297168090abeb4616d6677982",
+        "transactionStatus": "confirmed",
+        "message": "Approval Liquidity Pool detected from the developer's address (0x3b72f5fa94f20ff0a0c482f26f7208b946a48406). This may indicate developer setting or changing allowances."
+      },
+      {
+        "type": "removeLiquidity",
+        "hash": "0x5a77c2fa5a1175a998a302100545a416a78f7033e451de341c79e7fce9fc39ab",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "31144823004794873933217",
+        "totalSupplyBefore": "31144823004794873934217",
+        "percentRemoved": 100
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403375,
+        22403376,
+        22403377,
+        22403378,
+        22403379
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403379
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=12)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403379,
+      "retryUntilBlock": 22403379,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "31144823004794873934217",
+      "currentLpSupply": "31144823004794873934217",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      },
+      {
+        "method": "SKIP",
+        "trigger": "devApproveLp",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x9dcf3e89b6a09a0c1568bebc24c99142eb0ab93c",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x2f99884c32fdad7aa156934a13f700762c552e5b",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xf3bda1d549d79c8d90140dae7827d07b1a6ce024c6d2fe2a5a191b007bf2e38f",
+        "from": "0xf8954ef15397913b4f6213b68de02252a8be480f",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "53.49",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403387,
+        "tokenHoldersCount": null,
+        "traceRemoveLiq": {
+          "total": 61,
+          "found": 1,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 1.349939259000006,
+              "fetchSec": 1.3447270700000227,
+              "parseSec": 0.0043912460000137795,
+              "customParseSec": 0.00014607199997408314
+            }
+          }
+        },
+        "successDate": 1746276887,
+        "receivedDate": 1746276888644,
+        "getTokenHoldersCountDurationSec": 0.8218408439999912,
+        "findLpAddressDurationSec": 0.3247661760000046,
+        "getTokenHoldersDurationSec": 0.0645132010000525,
+        "isKnownLpTokenDurationSec": 0.00004055099992547184,
+        "checkRouterDurationSec": 0.06767929800000275,
+        "decodeAddLiquidityDurationSec": 0.45712778300000356,
+        "snipeDate": 1746276889927,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        }
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 5,
+        "value": 18,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [
+      {
+        "type": "devApproveLP",
+        "hash": "0x7169033cf65184b3e59046cb917d6660550ed57eb80f8f75d1e9175767ed191d",
+        "transactionStatus": "confirmed",
+        "message": "Approval Liquidity Pool detected from the developer's address (0xf8954ef15397913b4f6213b68de02252a8be480f). This may indicate developer setting or changing allowances."
+      },
+      {
+        "type": "removeLiquidity",
+        "hash": "0x033fd56a9478743dcae7281948f95cb88e52650ab3035057befaab113d71985f",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "53489999999999999999000",
+        "totalSupplyBefore": "53490000000000000000000",
+        "percentRemoved": 100
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403387,
+        22403388,
+        22403389,
+        22403390,
+        22403391
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403391
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=1)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403391,
+      "retryUntilBlock": 22403391,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "53490000000000000000000",
+      "currentLpSupply": "53490000000000000000000",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xd20309de214ff7a0655ffac3d3346b04608d2d34",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x2d11f70f6122cacf238844d641c0070c277f335d",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": {
+      "isScam": true,
+      "message": "Terdapat blacklist bots yang bisa diatur oleh owner. Fungsi `addBots` dan `delBots` memungkinkan owner untuk menambahkan atau menghapus alamat dari blacklist, yang dapat mempengaruhi transaksi dan berpotensi merugikan pengguna. Selain itu, terdapat _transferTax yang diimplementasikan setelah _buyCount > 0 dan setelah itu selalu digunakan. Hal ini menimbulkan pertanyaan kenapa tax tersebut tidak diimplementasikan dari awal. Diduga ini bisa digunakan untuk mengakali pembeli di awal, lalu setelah itu pemilik bisa mengambil pajak yang besar dan melakukan dump.",
+      "blacklistBuyCount": null,
+      "deadBlockCount": null
+    },
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x74f1f8bd7510b52d6a5db40e193c8239b3485ab9fc4763c5346fc9230059260a",
+        "from": "0x3248c276fbdf984e86fa1c340e9321a7f26083f3",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403411,
+        "tokenHoldersCount": 2,
+        "traceRemoveLiq": {
+          "total": 1,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 3.9241148580000735,
+              "fetchSec": 0.2531744310000213,
+              "parseSec": 0.00042666499991901217,
+              "customParseSec": 0.000016313000000081957
+            }
+          }
+        },
+        "successDate": 1746277175,
+        "receivedDate": 1746277177712,
+        "getTokenHoldersCountDurationSec": 0.7547771010000724,
+        "findLpAddressDurationSec": 0.894616052999976,
+        "getTokenHoldersDurationSec": 0.09237282000004779,
+        "isKnownLpTokenDurationSec": 0.000014530000044032931,
+        "checkRouterDurationSec": 0.03584010799997486,
+        "decodeAddLiquidityDurationSec": 1.0229984379999806,
+        "snipeDate": 1746277179494,
+        "isPairCreated": true,
+        "buyCost": {
+          "costWETH": 0.03380183845634026,
+          "costUSD": 54.08294153014441
+        },
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      },
+      {
+        "type": "removeLiquidityBelow50",
+        "hash": "0x5e1f8ec5347f273127f00336c590c7c892e1d7a7e23355cf139a196263f036e2",
+        "from": "0x3248c276fbdf984e86fa1c340e9321a7f26083f3",
+        "blockNumber": 22403443,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.06168472493026567,
+          "costUSD": 98.69555988842508
+        }
+      }
+    ],
+    "taxData": 0,
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": false,
+      "isTwoPercent": true,
+      "value": "8413800000000000000",
+      "functionName": "_maxTxAmount",
+      "decimals": 9,
+      "approach": "unifiedFunctionCall"
+    },
+    "reasonsToSell": [
+      {
+        "type": "devApproveLP",
+        "hash": "0x025fcb87ec81936bf2a141ca8d064095f3f03d8f537cb6a77e8606f952e8bcff",
+        "transactionStatus": "confirmed",
+        "message": "Approval Liquidity Pool detected from the developer's address (0x3248c276fbdf984e86fa1c340e9321a7f26083f3). This may indicate developer setting or changing allowances."
+      },
+      {
+        "type": "removeLiquidity",
+        "hash": "0x5e1f8ec5347f273127f00336c590c7c892e1d7a7e23355cf139a196263f036e2",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "4472135954999579142",
+        "totalSupplyBefore": "17888543819998317571",
+        "percentRemoved": 24.999999999999996
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403416,
+        22403417,
+        22403418,
+        22403419,
+        22403420
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403420
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Token flagged as scam by AI Analysis",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403415,
+      "retryUntilBlock": 22403415,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "17888543819998317571",
+      "currentLpSupply": "17888543819998317571",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      },
+      {
+        "method": "SKIP",
+        "trigger": "devApproveLp",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x6c71530b37d71244e1da6923d7ff9d16f1d054f9",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x7450234be45d93ed8d73ea583f7254ff406a2e00",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x5f433755041b48a795b6c96da68ef7dd24d033f77e227b2b32827d762617f245",
+        "from": "0x820420ae115d365068ce8ed64b1114bca0361c77",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "5.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403429,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 1,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 19.34273764399998,
+              "fetchSec": 0.2568183689992875,
+              "parseSec": 0.00046043900027871134,
+              "customParseSec": 0.000010728999972343444
+            }
+          }
+        },
+        "successDate": 1746277391,
+        "receivedDate": 1746277393735,
+        "getTokenHoldersCountDurationSec": 0.3106864249999635,
+        "findLpAddressDurationSec": 0.29561174000008034,
+        "getTokenHoldersDurationSec": 0.09358782900008374,
+        "isKnownLpTokenDurationSec": 0.000007171999895945192,
+        "checkRouterDurationSec": 0.046909683999954724,
+        "decodeAddLiquidityDurationSec": 0.4363053760000039,
+        "snipeDate": 1746277394483,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.05067110843240313,
+          "costUSD": 81.073773491845
+        }
+      }
+    ],
+    "taxData": null,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": true,
+      "isTwoPercent": false,
+      "value": "100000000000000000",
+      "functionName": null,
+      "decimals": 9,
+      "approach": "fallback"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403429,
+        22403430,
+        22403431,
+        22403432,
+        22403433
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403433
+    },
+    "priceTracking": {
+      "buyBlock": 22403432,
+      "retryUntilBlock": 22403433,
+      "buyValueWETH": "8135168839729764",
+      "buyTokenAmount": "0.01629254776722574",
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "7071067811865475244",
+      "currentLpSupply": "7071067811865475244",
+      "flags": {}
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0xb1f31ccf20423db0cec765c0a793b567a1efa2b11db60ae017baf328ffe6b515",
+          "blockNumber": 22403430,
+          "from": "0xFd620e156Af5639DE1C16330b281A758CBab5F24",
+          "to": "0x2c528a6d9DE4FB21e66b61f473451130128c4dAa",
+          "amountIn": "0",
+          "amountOutEstimate": "0",
+          "amountOutMin": "0"
+        },
+        "error": null,
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403430,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0x6c71530b37d71244E1DA6923D7ff9D16f1d054F9",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x33de2c2c75b54064e377318043ea7a8f5b6871ece756335540426febb9f4119b",
+          "blockNumber": 22403434,
+          "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+          "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+          "usedSlippage": "50",
+          "amountOutEstimate": "8135168839729764",
+          "amountOutMin": "4067584419864882"
+        },
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x7d67d4bff0811d00e51b2209592b94907dd65d6f",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0xe6f5528d21a15329b0014c2e695987b350fa0721",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": {
+      "isScam": true,
+      "message": "Terdapat fungsi `openTrading()` yang memungkinkan owner untuk mentransfer 95% dari balance kontrak ke address msg.sender (yang mana adalah owner). Selain itu, fungsi `openTrading()` melakukan approve sejumlah token yang sangat besar (type(uint256).max) ke msg.sender, memberikan potensi untuk menarik dana yang lebih besar dari yang seharusnya diizinkan. Mekanisme addLiquidityETH juga bisa berpotensi rugpull karena owner yang menjadi liquidity provider bisa menarik liquidity kapan saja.",
+      "blacklistBuyCount": null,
+      "deadBlockCount": 20
+    },
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x2c184f4611e45dd446128f69a3d604f83bc131e076cd751364384b8ffadfa687",
+        "from": "0xdd867a63bc5b67de184db63f967ea46cbf107d9a",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403443,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 1,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 1.3077593430001289,
+              "fetchSec": 1.307454841000028,
+              "parseSec": 0.00017610700009390711,
+              "customParseSec": 0.000007175999926403165
+            }
+          }
+        },
+        "successDate": 1746277559,
+        "receivedDate": 1746277562148,
+        "getTokenHoldersCountDurationSec": 0.8178364220000803,
+        "findLpAddressDurationSec": 0.5875562960000243,
+        "getTokenHoldersDurationSec": 0.1010078659998253,
+        "isKnownLpTokenDurationSec": 0.000008431999711319804,
+        "checkRouterDurationSec": 0.024003909999970346,
+        "decodeAddLiquidityDurationSec": 0.7126357869999483,
+        "snipeDate": 1746277563681,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.031029863818983934,
+          "costUSD": 49.647782110374294
+        }
+      }
+    ],
+    "taxData": 0,
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": false,
+      "isTwoPercent": true,
+      "value": "200000000000000000",
+      "functionName": "_maxTxAmount",
+      "decimals": 9,
+      "approach": "unifiedFunctionCall"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403449,
+        22403450,
+        22403451,
+        22403452,
+        22403453
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403453
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Token flagged as scam by AI Analysis",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403447,
+      "retryUntilBlock": 22403447,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "2704625667259704166",
+      "currentLpSupply": "2704625667259704166",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x9239adfaba1500d632b51b5b210e50b67bfcf035",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x92bbd95330c303fd63f5801d5033bef34c67479a",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x077a2982ca69add115b2b8d704502127efedab36d2d8531284140349451d1638",
+        "from": "0xfad5db6730f80c4c530e9e485721468483c7630a",
+        "ownershipTransferredFound": false,
+        "isBundleContractCreationAndAddLiq": true,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403442,
+        "tokenHoldersCount": 0,
+        "traceRemoveLiq": null,
+        "successDate": 1746277547,
+        "receivedDate": 1746277549993,
+        "getTokenHoldersCountDurationSec": 0.22310366399982012,
+        "findLpAddressDurationSec": 2.4794796120000537,
+        "getTokenHoldersDurationSec": 0.11646486700046807,
+        "isKnownLpTokenDurationSec": 0.000007250000024214387,
+        "checkRouterDurationSec": 0.04032210800005123,
+        "decodeAddLiquidityDurationSec": 2.6364303689999504,
+        "snipeDate": 1746277564897,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 14,
+        "value": 100,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [],
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=9999)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403470,
+        22403471,
+        22403472,
+        22403473,
+        22403474
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403474
+    },
+    "priceTracking": {
+      "buyBlock": 22403447,
+      "retryUntilBlock": 22403447,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "316732226225771399",
+      "currentLpSupply": "316732226225771399",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x80faff04c353944c42e378ed9e13920147b5fd8d",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x9d8943225e349ac041d14d8eefeb969311c13bcb",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xd592afec077315c39f28653cfefadc31a70e8d504ae55033c33c50234931ddb9",
+        "from": "0x08d826765d17ef1ddefd211de41ea0f18b6b4c7f",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403449,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 7213,
+          "found": 1054,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 4.01430741200014,
+              "fetchSec": 1.1813377789999358,
+              "parseSec": 2.832792766999919,
+              "customParseSec": 0.000014750000089406966
+            }
+          }
+        },
+        "successDate": 1746277631,
+        "receivedDate": 1746277633035,
+        "getTokenHoldersCountDurationSec": 0.6074584979999345,
+        "findLpAddressDurationSec": 1.235451008999953,
+        "getTokenHoldersDurationSec": 0.1144702199997846,
+        "isKnownLpTokenDurationSec": 0.0000065659999381750824,
+        "checkRouterDurationSec": 0.0676719480000902,
+        "decodeAddLiquidityDurationSec": 1.4177565760000144,
+        "snipeDate": 1746277635063,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        }
+      }
+    ],
+    "taxData": null,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [
+      {
+        "type": "removeLiquidity",
+        "hash": "0x6f423f8379a0b01fad978caf0bcdd5c6a7d94b6779d816db844649acd180eeb2",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "176068168616590091456692",
+        "totalSupplyBefore": "176068168616590091457692",
+        "percentRemoved": 100
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403461,
+        22403462,
+        22403463,
+        22403464,
+        22403465
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403465
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=1054)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403453,
+      "retryUntilBlock": 22403453,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "176068168616590091457692",
+      "currentLpSupply": "176068168616590091457692",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x8699ce95402d57c1895d6d52bac8538fa2362ece",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x1ea9ebe65dd7287f68ea2c86c4197ec470854f61",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xe602966ad1acc348223d474b2716705d6f1ee13888482b5d8a3cd7a918b284f4",
+        "from": "0x19094af3e7b41991c5d21ed795ece61dd6697af5",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403463,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 1,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 2.8363296310000585,
+              "fetchSec": 0.2530460660001263,
+              "parseSec": 0.0003532930000219494,
+              "customParseSec": 0.000011758000124245883
+            }
+          }
+        },
+        "successDate": 1746277799,
+        "receivedDate": 1746277801121,
+        "getTokenHoldersCountDurationSec": 0.6160701750000007,
+        "findLpAddressDurationSec": 1.036122257000068,
+        "getTokenHoldersDurationSec": 0.13117200599983334,
+        "isKnownLpTokenDurationSec": 0.000015474000014364718,
+        "checkRouterDurationSec": 0.026075572999892757,
+        "decodeAddLiquidityDurationSec": 1.1935943230001722,
+        "snipeDate": 1746277802933,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.02747652079469394,
+          "costUSD": 43.96243327151031
+        }
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 7,
+        "value": 25,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": false,
+      "isTwoPercent": true,
+      "value": "200000000000000000",
+      "functionName": "_maxTxAmount",
+      "decimals": 9,
+      "approach": "unifiedFunctionCall"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403463,
+        22403464,
+        22403465,
+        22403466,
+        22403467
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403467
+    },
+    "priceTracking": {
+      "buyBlock": 22403466,
+      "retryUntilBlock": 22403467,
+      "buyValueWETH": "5220815476956115",
+      "buyTokenAmount": "0.039358985199925096",
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "2756809750418044353",
+      "currentLpSupply": "2756809750418044353",
+      "flags": {}
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x447510748d4839c5dd983306964e5e8e34fc4e4c2f882c67268a3016ad9bfc22",
+          "blockNumber": 22403464,
+          "from": "0xFd620e156Af5639DE1C16330b281A758CBab5F24",
+          "to": "0x2c528a6d9DE4FB21e66b61f473451130128c4dAa",
+          "amountIn": "0",
+          "amountOutEstimate": "0",
+          "amountOutMin": "0"
+        },
+        "error": null,
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403464,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0x8699ce95402D57C1895d6d52bAC8538FA2362eCe",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x8d1184b153dfd6de9524ba80f1d1aed6eb84459355af61ac386ab05d24bab6b6",
+          "blockNumber": 22403468,
+          "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+          "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+          "usedSlippage": "50",
+          "amountOutEstimate": "5220815476956115",
+          "amountOutMin": "2610407738478057"
+        },
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x0c5b58254dcb9dab63c2ade161fd67713fb949b3",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x704a2cb4bc2986e5efad26ef4dbfd13d4912fe13",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x1b861b0f1b1d6d5c005e0b488a99912eba259277efbbc221dcbe0d54dfffb1f1",
+        "from": "0xe08fcc4283fd8e35fdc49088b502b679e1c779fd",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "6.66",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403471,
+        "tokenHoldersCount": 0,
+        "traceRemoveLiq": {
+          "total": 3657,
+          "found": 804,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 5.3854614689999725,
+              "fetchSec": 0.7976216630002018,
+              "parseSec": 2.238167623999994,
+              "customParseSec": 0.000008204999845474958
+            }
+          }
+        },
+        "successDate": 1746277895,
+        "receivedDate": 1746277897459,
+        "getTokenHoldersCountDurationSec": 0.8404211979999673,
+        "findLpAddressDurationSec": 0.9432897240000311,
+        "getTokenHoldersDurationSec": 0.1087877770003397,
+        "isKnownLpTokenDurationSec": 0.000009405000135302543,
+        "checkRouterDurationSec": 0.06386647400003857,
+        "decodeAddLiquidityDurationSec": 1.1162421579998918,
+        "snipeDate": 1746277899421,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        }
+      }
+    ],
+    "taxData": null,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [
+      {
+        "type": "removeLiquidity",
+        "hash": "0xe60b68f259d3d0ebfd2285346ef3c6200a8ea8c87c3f046fff609e151c186a1e",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "391382166175210390103107",
+        "totalSupplyBefore": "391382166175210390104107",
+        "percentRemoved": 100
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403486,
+        22403487,
+        22403488,
+        22403489,
+        22403490
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403490
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=804)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403475,
+      "retryUntilBlock": 22403475,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "391382166175210390104107",
+      "currentLpSupply": "391382166175210390104107",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x3747b2f03f1a197ad1c2fab9902b45f6ee9c64fa",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0xd3777b4eb7bb77e50b80d93d1e34e089aa5adc98",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": {
+      "isScam": false,
+      "message": "Tidak ada indikasi bypass atau inject allowance. Fungsi transferFrom mengikuti standar ERC20 dan tidak ada variabel atau kondisi yang memungkinkan perubahan allowance tanpa persetujuan pemilik token.",
+      "blacklistBuyCount": null,
+      "deadBlockCount": null
+    },
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x3b86bc24af9f601e162521049f5a59cfc76decd0cccef1ae941a3b3b204476ad",
+        "from": "0x08d826765d17ef1ddefd211de41ea0f18b6b4c7f",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403487,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 7220,
+          "found": 1055,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 6.531011890999973,
+              "fetchSec": 1.124483561999863,
+              "parseSec": 2.9021832729999444,
+              "customParseSec": 0.00000406700000166893
+            }
+          }
+        },
+        "successDate": 1746278087,
+        "receivedDate": 1746278090497,
+        "getTokenHoldersCountDurationSec": 0.8362787430000026,
+        "findLpAddressDurationSec": 0.7097949429999572,
+        "getTokenHoldersDurationSec": 0.0928376490001101,
+        "isKnownLpTokenDurationSec": 0.000007265999913215637,
+        "checkRouterDurationSec": 0.06169233900005929,
+        "decodeAddLiquidityDurationSec": 0.8644885809998959,
+        "snipeDate": 1746278092202,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.010101010101010102,
+          "costUSD": 16.161616161616163
+        }
+      }
+    ],
+    "taxData": 0,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": true,
+      "isTwoPercent": false,
+      "value": "310000000000000000000000000",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "fallback"
+    },
+    "reasonsToSell": [
+      {
+        "type": "removeLiquidity",
+        "hash": "0x36137b05303c374a4e68c4a20d5774b24eb4d58deeb362afed83af40bb1451c2",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "176068168616590091456692",
+        "totalSupplyBefore": "176068168616590091457692",
+        "percentRemoved": 100
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403499,
+        22403500,
+        22403501,
+        22403502,
+        22403503
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403503
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=1055)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403491,
+      "retryUntilBlock": 22403491,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "176068168616590091457692",
+      "currentLpSupply": "176068168616590091457692",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x1a2ef44b8392927731aadb7dd74c80f1903dad3f",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x54e461bf7b37a4b53801bd98d53b077e6923f374",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xf287cb6d6cb18eec24bcba098dea8af566c71c3aaf95e936c186d51b2a71eef9",
+        "from": "0xf8954ef15397913b4f6213b68de02252a8be480f",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "54.67",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403489,
+        "tokenHoldersCount": null,
+        "traceRemoveLiq": {
+          "total": 68,
+          "found": 2,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 3.7183746740000787,
+              "fetchSec": 0.6047492319999729,
+              "parseSec": 0.0051323129998054355,
+              "customParseSec": 0.000009615999879315495
+            }
+          }
+        },
+        "successDate": 1746278111,
+        "receivedDate": 1746278115178,
+        "getTokenHoldersCountDurationSec": 0.3476752770000603,
+        "findLpAddressDurationSec": 0.9751819729998242,
+        "getTokenHoldersDurationSec": 0.10204105999972671,
+        "isKnownLpTokenDurationSec": 0.000008049000054597855,
+        "checkRouterDurationSec": 0.07464444900001399,
+        "decodeAddLiquidityDurationSec": 1.151915219000075,
+        "snipeDate": 1746278116679,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": -54.709879855089035,
+          "costUSD": -87535.80776814246
+        }
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 5,
+        "value": 18,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": true,
+      "isTwoPercent": false,
+      "value": "15000000000000000000000000000",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "fallback"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403489,
+        22403490,
+        22403491,
+        22403492,
+        22403493
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403493
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=2)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403493,
+      "retryUntilBlock": 22403493,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "24449167265982700540537",
+      "currentLpSupply": "24449167265982700540537",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xec6fd2ef229653ae4570c5ba771d787735d97ae0",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0xaee60d7e4f851a6a46d7455450da3aa509371dfe",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x7fb7b66bdc361eb98ac2f82752dbeaec0aa7b9ac4a9e8c2975f821bb5310c483",
+        "from": "0x3b72f5fa94f20ff0a0c482f26f7208b946a48406",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403520,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 111,
+          "found": 13,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 2.608780851999996,
+              "fetchSec": 2.1251338390000165,
+              "parseSec": 0.48322258599987256,
+              "customParseSec": 0.000019230999983847142
+            }
+          }
+        },
+        "successDate": 1746278495,
+        "receivedDate": 1746278498994,
+        "getTokenHoldersCountDurationSec": 0.54084167899983,
+        "findLpAddressDurationSec": 1.2661038659997284,
+        "getTokenHoldersDurationSec": 0.22793016600003466,
+        "isKnownLpTokenDurationSec": 0.0000067579997703433035,
+        "checkRouterDurationSec": 0.05761587899969891,
+        "decodeAddLiquidityDurationSec": 1.5516878419998101,
+        "snipeDate": 1746278501091,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        }
+      }
+    ],
+    "taxData": null,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [
+      {
+        "type": "devApproveLP",
+        "hash": "0x45dadfde7d3f6e8714a0fa54ac2812a8733afaab38f5fa2a930ffaa4d6da67ad",
+        "transactionStatus": "confirmed",
+        "message": "Approval Liquidity Pool detected from the developer's address (0x3b72f5fa94f20ff0a0c482f26f7208b946a48406). This may indicate developer setting or changing allowances."
+      },
+      {
+        "type": "removeLiquidity",
+        "hash": "0x09bd1f82dafd626f4edf9f340a966e7df2326a8cbb0b720ecd8fa6a48a76adba",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "213307290077015417507863",
+        "totalSupplyBefore": "213307290077015417508863",
+        "percentRemoved": 100
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403524,
+        22403525,
+        22403526,
+        22403527,
+        22403528
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403528
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=13)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403524,
+      "retryUntilBlock": 22403524,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "213307290077015417508863",
+      "currentLpSupply": "213307290077015417508863",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "devApproveLp",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      },
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x94df3efaa679d6c864f23c18030bcdcff5ac2d90",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0xf4229afaef059d69a813bfa34669a96f0f99dc9a",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x9eb80201688db959f3758bdf0b198ad406a6bdc48a48a2609aeb5bed71f0035b",
+        "from": "0xe08fcc4283fd8e35fdc49088b502b679e1c779fd",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "6.5",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403520,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 3661,
+          "found": 805,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 7.121392739000032,
+              "fetchSec": 0.9101367840000893,
+              "parseSec": 2.338333765000105,
+              "customParseSec": 0.000007673999993130564
+            }
+          }
+        },
+        "successDate": 1746278495,
+        "receivedDate": 1746278498994,
+        "getTokenHoldersCountDurationSec": 1.2336997559997254,
+        "findLpAddressDurationSec": 1.265041774999816,
+        "getTokenHoldersDurationSec": 0.22349002500018106,
+        "isKnownLpTokenDurationSec": 0.000011382999829947949,
+        "checkRouterDurationSec": 0.06360112799983472,
+        "decodeAddLiquidityDurationSec": 1.5522922389996239,
+        "snipeDate": 1746278501782,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        }
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 2,
+        "value": 18,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [
+      {
+        "type": "removeLiquidity",
+        "hash": "0xfd3bb4e9fda665d685592f8e813627ec20d27581f9007870d203a8c909f58797",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "386652298583624095851888",
+        "totalSupplyBefore": "386652298583624095852888",
+        "percentRemoved": 100
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403526,
+        22403527,
+        22403528,
+        22403529,
+        22403530
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403530
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=805)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403524,
+      "retryUntilBlock": 22403524,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "386652298583624095852888",
+      "currentLpSupply": "386652298583624095852888",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xfcde8aa53c7af9446693e56c38584714043ea3dd",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x5643c9f8a9892401abaae2a9042a00ea7bad9c68",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x06ec13a8022d53c757e861408e2f9fbce0cf556c2d3b7a89c778a3aae9a557e3",
+        "from": "0xadd934380f39bc050b16718c46c8ee981dd92f9d",
+        "ownershipTransferredFound": false,
+        "isBundleContractCreationAndAddLiq": true,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403534,
+        "tokenHoldersCount": 0,
+        "traceRemoveLiq": {
+          "total": 3,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 4.6218904730002395,
+              "fetchSec": 0.2699935929998755,
+              "parseSec": 0.000810647000093013,
+              "customParseSec": 0.000011793999932706355
+            }
+          }
+        },
+        "successDate": 1746278663,
+        "receivedDate": 1746278666227,
+        "getTokenHoldersCountDurationSec": 0.6376729959999211,
+        "findLpAddressDurationSec": 3.419248865999747,
+        "getTokenHoldersDurationSec": 0.11834862399986014,
+        "isKnownLpTokenDurationSec": 0.000013152999803423881,
+        "checkRouterDurationSec": 0.03560032200021669,
+        "decodeAddLiquidityDurationSec": 3.573375920999795,
+        "snipeDate": 1746278671795,
+        "isPairCreated": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        },
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 5,
+        "value": 10,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [],
+    "priceTracking": {
+      "buyBlock": 22403538,
+      "retryUntilBlock": 22403538,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "642787368907773468",
+      "currentLpSupply": "644012121807753259",
+      "flags": {}
+    },
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403628,
+        22403629,
+        22403630,
+        22403631,
+        22403632
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403632
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": "TX tidak terkirim",
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403535,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0xfcde8AA53c7aF9446693E56C38584714043Ea3dd",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xa959b5bf29db8c4c936e214180f97eb6c2662bcf",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0xd86523d4ac008fed5f0cb66e6c9c0206e66cb08a",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x9416fc9c1aadd9ffc6c444113522594c55352e4d90793e8cd40ac6562c44696b",
+        "from": "0xec96c6dd8e01e7a3a95e3c8dde46481b7442ad13",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403535,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 4,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 2.019262653999962,
+              "fetchSec": 2.0187408500001767,
+              "parseSec": 0.00036510200006887315,
+              "customParseSec": 0.0000035250000655651093
+            }
+          }
+        },
+        "successDate": 1746278675,
+        "receivedDate": 1746278677689,
+        "getTokenHoldersCountDurationSec": 0.8073074110001326,
+        "findLpAddressDurationSec": 1.2573176409997977,
+        "getTokenHoldersDurationSec": 0.13489311200007797,
+        "isKnownLpTokenDurationSec": 0.000008695999626070261,
+        "checkRouterDurationSec": 0.043755758000072094,
+        "decodeAddLiquidityDurationSec": 1.4360548399998807,
+        "snipeDate": 1746278679935,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.02564102564102564,
+          "costUSD": 41.02564102564102
+        }
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 11,
+        "value": 23,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": false,
+      "isTwoPercent": true,
+      "value": "8413800000000000000",
+      "functionName": "_maxTxAmount",
+      "decimals": 9,
+      "approach": "unifiedFunctionCall"
+    },
+    "reasonsToSell": [
+      {
+        "type": "devApproveLP",
+        "hash": "0x1b58b3dcaf536c8cc5c900e3338ce423d90b0a60733015cb4d64931f56cee4ec",
+        "transactionStatus": "confirmed",
+        "message": "Approval Liquidity Pool detected from the developer's address (0xec96c6dd8e01e7a3a95e3c8dde46481b7442ad13). This may indicate developer setting or changing allowances."
+      },
+      {
+        "type": "removeLiquidity",
+        "hash": "0x4a41b74bfc055e218f1ffa60c1367e98e3353a6fac5c72d1d421dd167132a154",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "18345353635185121808",
+        "totalSupplyBefore": "18345353635185122808",
+        "percentRemoved": 99.99999999999999
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403535,
+        22403536,
+        22403537,
+        22403538,
+        22403539
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403539
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "CONCURRENCY_LIMIT_REACHED",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403539,
+      "retryUntilBlock": 22403539,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "18345353635185122808",
+      "currentLpSupply": "18345353635185122808",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      },
+      {
+        "method": "SKIP",
+        "trigger": "devApproveLp",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x9911aee9066336c2adb0fa225ca16a8ac7b8afca",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x2348fa53bdea92558744e3f5489648e3514773c0",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xca3d8d89372cb707fe6428e6667e288d47e35870535753490bd4f6f17641bf54",
+        "from": "0xe08fcc4283fd8e35fdc49088b502b679e1c779fd",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "6.6",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403571,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 3665,
+          "found": 806,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 4.712663693999872,
+              "fetchSec": 2.5834382150000894,
+              "parseSec": 2.1290055300001987,
+              "customParseSec": 0.000010005000047385693
+            }
+          }
+        },
+        "successDate": 1746279107,
+        "receivedDate": 1746279110166,
+        "getTokenHoldersCountDurationSec": 0.6605702370000072,
+        "findLpAddressDurationSec": 0.9751852059997618,
+        "getTokenHoldersDurationSec": 0.1746612259997055,
+        "isKnownLpTokenDurationSec": 0.00001245399983599782,
+        "checkRouterDurationSec": 0.0715589879998006,
+        "decodeAddLiquidityDurationSec": 1.2215703040002845,
+        "snipeDate": 1746279112050,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        }
+      }
+    ],
+    "taxData": null,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403581,
+        22403582,
+        22403583,
+        22403584,
+        22403585
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403585
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=806)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403575,
+      "retryUntilBlock": 22403575,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "389615194775563136018896",
+      "currentLpSupply": "389615194775563136018896",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x185e6a27d68d624b85482bb8ed335bb95e5a33e3",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0xd9d1661a6f6fd9eae06a316707d334dca22acc69",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x8128fb2b53ed08d97541bca464f2ab46a7ec39f0232f69b1cda8f2a69eafe89a",
+        "from": "0x271873a2fbe16e1ff0e58fe3ff0777ae82a91001",
+        "ownershipTransferredFound": false,
+        "isBundleContractCreationAndAddLiq": true,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403595,
+        "tokenHoldersCount": 0,
+        "traceRemoveLiq": {
+          "total": 4,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 8.469032782999799,
+              "fetchSec": 0.2672778559997678,
+              "parseSec": 0.0007279030000790954,
+              "customParseSec": 0.000009453000035136938
+            }
+          }
+        },
+        "successDate": 1746279395,
+        "receivedDate": 1746279398291,
+        "getTokenHoldersCountDurationSec": 0.822005095999688,
+        "findLpAddressDurationSec": 6.460461535000242,
+        "getTokenHoldersDurationSec": 0.12387232800014317,
+        "isKnownLpTokenDurationSec": 0.000008235000539571046,
+        "checkRouterDurationSec": 0.040421825000084934,
+        "decodeAddLiquidityDurationSec": 6.6249070139997634,
+        "snipeDate": 1746279408458,
+        "isPairCreated": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        },
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 5,
+        "value": 10,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [],
+    "priceTracking": {
+      "buyBlock": 22403599,
+      "retryUntilBlock": 22403599,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "316227766016837933",
+      "currentLpSupply": "316977340705217265",
+      "flags": {}
+    },
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403638,
+        22403639,
+        22403640,
+        22403641,
+        22403642
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403642
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": "TX tidak terkirim",
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403597,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0x185E6A27D68d624b85482bB8eD335BB95e5a33E3",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xde10e26e587a7c2f701b7da3870786f07196cf34",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x2a97713c7901011247a8a2606155ecb111969d62",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": {
+      "isScam": false,
+      "message": "Tidak ditemukan mekanisme bypass allowance atau inject allowance. TransferFrom berfungsi sebagaimana mestinya, mengurangi allowance setelah transfer. Tidak ada fungsi _approve yang dapat meningkatkan allowance tanpa persetujuan pemilik.",
+      "blacklistBuyCount": 1,
+      "deadBlockCount": null
+    },
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xda5effc594e04fae539a7a35f9fb57b166c6b9f680315a3d3dcf743d9bc05d57",
+        "from": "0xa76f5fc8581d52e6f2e2171a7b000390e58879c8",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403649,
+        "tokenHoldersCount": 5,
+        "traceRemoveLiq": {
+          "total": 1,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 3.944318316000048,
+              "fetchSec": 3.9419942640000953,
+              "parseSec": 0.0021612140000797806,
+              "customParseSec": 0.0000020940001122653485
+            }
+          }
+        },
+        "successDate": 1746280043,
+        "receivedDate": 1746280046716,
+        "getTokenHoldersCountDurationSec": 0.38673803899995984,
+        "findLpAddressDurationSec": 4.409496205000207,
+        "getTokenHoldersDurationSec": 0.14882739799981937,
+        "isKnownLpTokenDurationSec": 0.00000841799983754754,
+        "checkRouterDurationSec": 0.030833238000050188,
+        "decodeAddLiquidityDurationSec": 4.58942713299999,
+        "snipeDate": 1746280051700,
+        "isPairCreated": false,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.08224019157207405,
+          "costUSD": 131.58430651531847
+        }
+      }
+    ],
+    "taxData": 0,
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": false,
+      "isTwoPercent": true,
+      "value": "20000000000000000",
+      "functionName": "_maxTxAmount",
+      "decimals": 9,
+      "approach": "unifiedFunctionCall"
+    },
+    "reasonsToSell": [
+      {
+        "type": "devApproveToken",
+        "hash": "0x062250af5039b0568ce23830f1c685ecc6abebfb04ef9779afc895c9c857979f",
+        "transactionStatus": "confirmed",
+        "message": "Approval detected from the developer's address (tx.from). This may indicate developer setting or changing allowances."
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403794,
+        22403795,
+        22403796,
+        22403797,
+        22403798
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403798
+    },
+    "priceTracking": {
+      "buyBlock": 22403652,
+      "retryUntilBlock": 22403653,
+      "buyValueWETH": "7691476524506462",
+      "buyTokenAmount": "0.001669243478977708",
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "848528137423857029",
+      "currentLpSupply": "848528137423857029",
+      "flags": {
+        "doubleReached": true
+      }
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x06667b9c5deeee305af57e1309f9d641e510902900d536909bfca9f44912671f",
+          "blockNumber": 22403650,
+          "from": "0xFd620e156Af5639DE1C16330b281A758CBab5F24",
+          "to": "0x2c528a6d9DE4FB21e66b61f473451130128c4dAa",
+          "amountIn": "0",
+          "amountOutEstimate": "0",
+          "amountOutMin": "0"
+        },
+        "error": null,
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403650,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0xde10E26e587A7c2F701b7DA3870786F07196Cf34",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "x2Reached",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x03d1b76fed57bb0e3dc23210afa86d91ea24584b55b90e347b59e7f627cf9862",
+          "blockNumber": 22403662,
+          "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+          "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+          "usedSlippage": "50",
+          "amountOutEstimate": "15733072159344898",
+          "amountOutMin": "7866536079672449"
+        },
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x80b8a59856e435305dbdb8033978aa5ddf096c25",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0xc1b7c849a693d88044f5ffdae7ed5113b2ca0e67",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xfa2734e339553e62795057fb2a7e36836263cfbb98e2e2be93404849e0157eb3",
+        "from": "0x121d73d58116f7de7cfdca0727033ab04973c7df",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "30.705583707734844211",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403685,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 1198,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 3.465036189999897,
+              "fetchSec": 2.3028110429998487,
+              "parseSec": 1.1620710649997927,
+              "customParseSec": 0.000003255000337958336
+            }
+          }
+        },
+        "successDate": 1746280475,
+        "receivedDate": 1746280478073,
+        "getTokenHoldersCountDurationSec": 0.8658030770001933,
+        "findLpAddressDurationSec": 3.103132445999887,
+        "getTokenHoldersDurationSec": 0.119816471000202,
+        "isKnownLpTokenDurationSec": 0.000009703999385237694,
+        "checkRouterDurationSec": 0.061246458999812604,
+        "decodeAddLiquidityDurationSec": 3.2842867959998547,
+        "snipeDate": 1746280482228,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": -45.81054195199388,
+          "costUSD": -73296.86712319021
+        }
+      }
+    ],
+    "taxData": null,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": true,
+      "isTwoPercent": false,
+      "value": "4500000000000000000000000000",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "fallback"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403685,
+        22403686,
+        22403687,
+        22403688,
+        22403689
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403689
+    },
+    "priceTracking": {
+      "buyBlock": 22403688,
+      "retryUntilBlock": 22403689,
+      "buyValueWETH": "8109445944933746",
+      "buyTokenAmount": "392834.8058514444",
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "213418559836626407035032",
+      "currentLpSupply": "213418559836626407035032",
+      "flags": {}
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0xa018c24f32abc0464c2e1b23b7d0526c8e18ae71bd739c4423492b7a669d2edb",
+          "blockNumber": 22403686,
+          "from": "0xFd620e156Af5639DE1C16330b281A758CBab5F24",
+          "to": "0x2c528a6d9DE4FB21e66b61f473451130128c4dAa",
+          "amountIn": "0",
+          "amountOutEstimate": "0",
+          "amountOutMin": "0"
+        },
+        "error": null,
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403686,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0x80B8A59856e435305DbDb8033978aa5dDf096C25",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x073f525ff82b6b094827a9f08effd0ce3b48776d3dc452e4a0d1e49c8d2482d6",
+          "blockNumber": 22403690,
+          "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+          "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+          "usedSlippage": "50",
+          "amountOutEstimate": "8109445944933746",
+          "amountOutMin": "4054722972466873"
+        },
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x495d9198eeb0633c8c512081561dadbc32238f06",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x2689fca18b9ac6948bf844bd53042c06d0f7598d",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x27ce2c23aa8a33dbd4557519879aca7fff4e3523718602c9e19f27ee9b542a7f",
+        "from": "0x3b72f5fa94f20ff0a0c482f26f7208b946a48406",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403699,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 119,
+          "found": 14,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 4.244878308000043,
+              "fetchSec": 4.117592456000391,
+              "parseSec": 0.12713098799996078,
+              "customParseSec": 0.0000039470000192523004
+            }
+          }
+        },
+        "successDate": 1746280643,
+        "receivedDate": 1746280648250,
+        "getTokenHoldersCountDurationSec": 0.8169741829996928,
+        "findLpAddressDurationSec": 4.581775829999708,
+        "getTokenHoldersDurationSec": 0.49717264699935915,
+        "isKnownLpTokenDurationSec": 0.00001163599919527769,
+        "checkRouterDurationSec": 0.0835673919999972,
+        "decodeAddLiquidityDurationSec": 5.162653428000398,
+        "snipeDate": 1746280654234,
+        "isPairCreated": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        },
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      }
+    ],
+    "taxData": null,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [
+      {
+        "type": "devApproveLP",
+        "hash": "0xc279b40e981f629c68ccb7c88f06b7f3b3b70c4cefde24a4d3fae276ddd866b4",
+        "transactionStatus": "confirmed",
+        "message": "Approval Liquidity Pool detected from the developer's address (0x3b72f5fa94f20ff0a0c482f26f7208b946a48406). This may indicate developer setting or changing allowances."
+      },
+      {
+        "type": "removeLiquidity",
+        "hash": "0xe3ba5cbb8abeb3f973e5de745cef227a58a660028791038692c4839fc16a0828",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "313049516849970557496284",
+        "totalSupplyBefore": "313049516849970557497284",
+        "percentRemoved": 100
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403699,
+        22403700,
+        22403701,
+        22403702,
+        22403703
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403703
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=14)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403703,
+      "retryUntilBlock": 22403703,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "313049516849970557497284",
+      "currentLpSupply": "313049516849970557497284",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "devApproveLp",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      },
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x4a7566a67e02c0c82223d76e51602a4e29701184",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x4f21b82c14f3a1210b3abc1d2857a7297bc483c8",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": {
+      "isScam": true,
+      "message": "Fungsi `approve` memiliki logika bersyarat. Jika `msg.sender` adalah `_teamAccount`, maka `_approvalMax[spender]` diatur ke `value`, dan kemudian `super.approve(spender, value)` dipanggil. Ini berpotensi memungkinkan `_teamAccount` untuk memanipulasi allowance untuk alamat lain.",
+      "blacklistBuyCount": null,
+      "deadBlockCount": null
+    },
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x400e8603c3174f6e2d2746d5156631918c2bff61e58c0cbb6fed0a1c0a2f5835",
+        "from": "0x23a62272fbb4f177599c4256acdc064298a4345f",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "2.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403704,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 2,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 6.090077243000269,
+              "fetchSec": 0.2670742569998838,
+              "parseSec": 0.0002936049997806549,
+              "customParseSec": 0.000011731999926269054
+            }
+          }
+        },
+        "successDate": 1746280703,
+        "receivedDate": 1746280707734,
+        "getTokenHoldersCountDurationSec": 0.6172473059995099,
+        "findLpAddressDurationSec": 3.6196961570000274,
+        "getTokenHoldersDurationSec": 0.12037016999907792,
+        "isKnownLpTokenDurationSec": 0.000010978001169860364,
+        "checkRouterDurationSec": 0.05725583200063557,
+        "decodeAddLiquidityDurationSec": 3.7974217240000145,
+        "snipeDate": 1746280712150,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.020202020202020204,
+          "costUSD": 32.323232323232325
+        }
+      }
+    ],
+    "taxData": 0,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": true,
+      "isTwoPercent": false,
+      "value": "10000000000000000000000000",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "fallback"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403704,
+        22403705,
+        22403706,
+        22403707,
+        22403708
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403708
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Token flagged as scam by AI Analysis",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403708,
+      "retryUntilBlock": 22403708,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "44721359549995793928183",
+      "currentLpSupply": "44721359549995793928183",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xf21cd036edbff04837ae77e45d6eaf1f44ee3131",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x1ace5df7ca6b7690f77f0fbcd818f26d3ff79915",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x51bf736a9ca0211135d4afe7afb77bd0970724ee844e94352045b015e1f3dfad",
+        "from": "0x44ca26991891142f81cd8f15cc5b079aaa997db9",
+        "ownershipTransferredFound": false,
+        "isBundleContractCreationAndAddLiq": true,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403721,
+        "tokenHoldersCount": 0,
+        "traceRemoveLiq": {
+          "total": 4,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 8.061884290000425,
+              "fetchSec": 0.3240816230000928,
+              "parseSec": 0.046099298000335694,
+              "customParseSec": 0.000002181000076234341
+            }
+          }
+        },
+        "successDate": 1746280907,
+        "receivedDate": 1746280911889,
+        "getTokenHoldersCountDurationSec": 0.5281980209993199,
+        "findLpAddressDurationSec": 9.84475039499998,
+        "getTokenHoldersDurationSec": 0.2486754999998957,
+        "isKnownLpTokenDurationSec": 0.000009608999826014041,
+        "checkRouterDurationSec": 0.03480821199994534,
+        "decodeAddLiquidityDurationSec": 10.128362204999663,
+        "snipeDate": 1746280922772,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.5415927525518999,
+          "costUSD": 866.5484040830398
+        }
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 8,
+        "value": 43,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": true,
+      "isTwoPercent": false,
+      "value": "10000000000000000",
+      "functionName": null,
+      "decimals": 9,
+      "approach": "fallback"
+    },
+    "reasonsToSell": [],
+    "priceTracking": {
+      "buyBlock": 22403725,
+      "retryUntilBlock": 22403725,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "989949493661166534",
+      "currentLpSupply": "991344604294658088",
+      "flags": {}
+    },
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403759,
+        22403760,
+        22403761,
+        22403762,
+        22403763
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403763
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": "Error saat wait()",
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403723,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0xf21cD036edbFF04837ae77e45d6eAf1f44Ee3131",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x956dc56f6646a9ecd84b8cc16a4720f2ff9aed16",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x762c2c240a2ea46980d4aa9203a26d3b9dc2916e",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x31f5e038fd46b4e4ac0eca8f6fa28c13e30db27c32a7056b9258d66d82b17e00",
+        "from": "0x8772162d207036b5cc766108ca3eaff9bc65f7f4",
+        "ownershipTransferredFound": false,
+        "isBundleContractCreationAndAddLiq": true,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403727,
+        "tokenHoldersCount": 44,
+        "traceRemoveLiq": {
+          "total": 4,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 17.48094230600074,
+              "fetchSec": 1.2983222679998725,
+              "parseSec": 0.5748046039994806,
+              "customParseSec": 0.000003312000073492527
+            }
+          }
+        },
+        "successDate": 1746280979,
+        "receivedDate": 1746280983045,
+        "getTokenHoldersCountDurationSec": 1.4281745050000028,
+        "findLpAddressDurationSec": 9.883156680000015,
+        "getTokenHoldersDurationSec": 0.16412735099904238,
+        "isKnownLpTokenDurationSec": 0.000010121000930666924,
+        "checkRouterDurationSec": 0.034635789999738334,
+        "decodeAddLiquidityDurationSec": 10.082040610000492,
+        "snipeDate": 1746281005262,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 14,
+        "value": 100,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": true,
+      "isTwoPercent": false,
+      "value": "1000000000000000",
+      "functionName": "slot#12",
+      "decimals": 9,
+      "approach": "slotApproach"
+    },
+    "reasonsToSell": [],
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Token holders count not < 20 (count=44)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403732,
+      "retryUntilBlock": 22403732,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "316734331734285540",
+      "currentLpSupply": "316734331734285540",
+      "flags": {}
+    },
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403733,
+        22403734,
+        22403735,
+        22403736,
+        22403738
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403738
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x3f4150a2dde10463d20cd6b3e902934aae4c22b0",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x894bbf215d2facc7c68099462165a32310833ca6",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xf2f01546fdbe819c80810493ff41c87cf30b8d3bcf8bf6a32e616b0cb4dff987",
+        "from": "0x77ae39cef12309f1df5dd41d28e102981cc182df",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403728,
+        "tokenHoldersCount": 44,
+        "traceRemoveLiq": {
+          "total": 3,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 8.643177969000302,
+              "fetchSec": 0.28825942400004717,
+              "parseSec": 0.13319170999992638,
+              "customParseSec": 0.0000015740003436803817
+            }
+          }
+        },
+        "successDate": 1746280991,
+        "receivedDate": 1746280995614,
+        "getTokenHoldersCountDurationSec": 0.6753489570003003,
+        "findLpAddressDurationSec": 14.405211918000132,
+        "getTokenHoldersDurationSec": 2.5605771659994496,
+        "isKnownLpTokenDurationSec": 0.00000760400015860796,
+        "checkRouterDurationSec": 0.6122449949998409,
+        "decodeAddLiquidityDurationSec": 17.57814737099968,
+        "snipeDate": 1746281013870,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 8,
+        "value": 41,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [],
+    "priceTracking": {
+      "buyBlock": 22403733,
+      "retryUntilBlock": 22403733,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "643290023579618249",
+      "currentLpSupply": "643290023579618249",
+      "flags": {}
+    },
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403729,
+        22403733,
+        22403734,
+        22403735,
+        22403736
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403736
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Token holders count not < 20 (count=44)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xe9ad4aba597b1e5fe98a34958610064758191820",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x733812774da918b4567e110ecc1172090f3d3b9b",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": {
+      "isScam": false,
+      "message": "Kode ini tidak terindikasi memiliki bypass allowance maupun inject allowance. Alur transferFrom sudah sesuai standar, dan tidak ada fungsi yang dapat mengubah allowance tanpa persetujuan pemilik.",
+      "blacklistBuyCount": null,
+      "deadBlockCount": null
+    },
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xfe5bd4d910725b6b5e4155fd27e1e81f8abec21c9f96100bee4372e30ddfc608",
+        "from": "0x672e53e44db4d72e75cf61e9d7e124132dab0de7",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403729,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 1,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 6.280156004000455,
+              "fetchSec": 6.258132282000035,
+              "parseSec": 0.02186008000001311,
+              "customParseSec": 0.00000212900061160326
+            }
+          }
+        },
+        "successDate": 1746281003,
+        "receivedDate": 1746281007592,
+        "getTokenHoldersCountDurationSec": 0.818871797000058,
+        "findLpAddressDurationSec": 3.190385440000333,
+        "getTokenHoldersDurationSec": 1.8074078160002827,
+        "isKnownLpTokenDurationSec": 0.000010261000134050847,
+        "checkRouterDurationSec": 0.6026461330000311,
+        "decodeAddLiquidityDurationSec": 5.600506369000301,
+        "snipeDate": 1746281014015,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.02564102564102564,
+          "costUSD": 41.02564102564102
+        }
+      }
+    ],
+    "taxData": 0,
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": false,
+      "isTwoPercent": true,
+      "value": "20000000000000000000000000",
+      "functionName": "_maxTxAmount",
+      "decimals": 18,
+      "approach": "unifiedFunctionCall"
+    },
+    "reasonsToSell": [],
+    "priceTracking": {
+      "buyBlock": 22403733,
+      "retryUntilBlock": 22403733,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "28284271247461900976033",
+      "currentLpSupply": "28284271247461900976033",
+      "flags": {}
+    },
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403730,
+        22403731,
+        22403732,
+        22403728,
+        22403729
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403729
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": "TX tidak terkirim",
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403733,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0xe9aD4abA597b1E5FE98a34958610064758191820",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x457a6dade9d30239f4269efbf0531ced0cec44a5",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x5950c5b411b926c16ebff2f4882041864f7c806d",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": {
+      "isScam": false,
+      "message": "Tidak ditemukan adanya bypass allowance atau inject allowance. Mekanisme transferFrom berfungsi sesuai standar, dengan pengurangan allowance setelah transfer. Tidak ada fungsi yang dapat meningkatkan allowance tanpa persetujuan pemilik token.",
+      "blacklistBuyCount": 1,
+      "deadBlockCount": null
+    },
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x8c7678b427446001d3d30c9b335dc255f074b0d24d242a073520b9d4ea9d5948",
+        "from": "0x5a269223feab72dfdf6b93a3b7d550d2d4e8d170",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "0.5",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403744,
+        "tokenHoldersCount": 7,
+        "traceRemoveLiq": {
+          "total": 2,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 4.147009843999985,
+              "fetchSec": 0.771542295999825,
+              "parseSec": 0.03164930400019512,
+              "customParseSec": 0.000004352999851107597
+            }
+          }
+        },
+        "successDate": 1746281183,
+        "receivedDate": 1746281186681,
+        "getTokenHoldersCountDurationSec": 0.7291267959997058,
+        "findLpAddressDurationSec": 4.349871491999365,
+        "getTokenHoldersDurationSec": 0.14629026000015438,
+        "isKnownLpTokenDurationSec": 0.00000950399972498417,
+        "checkRouterDurationSec": 0.04191464800015092,
+        "decodeAddLiquidityDurationSec": 4.53823977999948,
+        "snipeDate": 1746281191954,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.053160413331383466,
+          "costUSD": 85.05666133021354
+        }
+      }
+    ],
+    "taxData": 0,
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "8400000000000000000",
+      "functionName": "_maxTxAmount",
+      "decimals": 9,
+      "approach": "unifiedFunctionCall"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403768,
+        22403769,
+        22403770,
+        22403771,
+        22403772
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403772
+    },
+    "priceTracking": {
+      "buyBlock": 22403746,
+      "retryUntilBlock": 22403748,
+      "buyValueWETH": "6666870466883779",
+      "buyTokenAmount": "1.055712829524722",
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "11938583333042492944",
+      "currentLpSupply": "11938583333042492944",
+      "flags": {}
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x9f1794717b34ee64bb01551cfa5620ae532bddca518a05d6ce721a179d40668a",
+          "blockNumber": 22403745,
+          "from": "0xFd620e156Af5639DE1C16330b281A758CBab5F24",
+          "to": "0x2c528a6d9DE4FB21e66b61f473451130128c4dAa",
+          "amountIn": "0",
+          "amountOutEstimate": "0",
+          "amountOutMin": "0"
+        },
+        "error": null,
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403745,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0x457A6DADe9D30239f4269EFBf0531Ced0CeC44a5",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e",
+          "blockNumber": 22403774,
+          "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+          "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+          "usedSlippage": "50",
+          "amountOutEstimate": "10393060989310321",
+          "amountOutMin": "5196530494655160"
+        },
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x9f3b020aa65e34a29496601dc0034dd57ee29d44",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x22eb6cec038a8fa8b5364aa0d93ecd8b9fc8d0ea",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x380971b01211010aff558e026839277008363e0ccf63a3a90c58b32c7d379581",
+        "from": "0x662418730f7848c81b86fc2739bde06f9ff3827c",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403754,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 1,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 3.933598988999613,
+              "fetchSec": 3.933225816000253,
+              "parseSec": 0.0001346009997650981,
+              "customParseSec": 0.000004674999974668026
+            }
+          }
+        },
+        "successDate": 1746281315,
+        "receivedDate": 1746281319241,
+        "getTokenHoldersCountDurationSec": 0.8578177670007572,
+        "findLpAddressDurationSec": 4.5252860040003435,
+        "getTokenHoldersDurationSec": 0.14845806199964137,
+        "isKnownLpTokenDurationSec": 0.000009463999420404434,
+        "checkRouterDurationSec": 0.022998592999763787,
+        "decodeAddLiquidityDurationSec": 4.696893152999691,
+        "snipeDate": 1746281324797,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.06478275491765538,
+          "costUSD": 103.6524078682486
+        }
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 7,
+        "value": 25,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": false,
+      "isTwoPercent": true,
+      "value": "200000000000000000",
+      "functionName": "_maxTxAmount",
+      "decimals": 9,
+      "approach": "unifiedFunctionCall"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403769,
+        22403770,
+        22403771,
+        22403772,
+        22403773
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403773
+    },
+    "priceTracking": {
+      "buyBlock": 22403756,
+      "retryUntilBlock": 22403758,
+      "buyValueWETH": "9771840625158703",
+      "buyTokenAmount": "0.03329579308580337",
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "2756809750418044353",
+      "currentLpSupply": "2756809750418044353",
+      "flags": {}
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0xc4bc74fb101c277eef75c8e50f0603e9971a9e0190568fc77458c47b49bcb85d",
+          "blockNumber": 22403755,
+          "from": "0xFd620e156Af5639DE1C16330b281A758CBab5F24",
+          "to": "0x2c528a6d9DE4FB21e66b61f473451130128c4dAa",
+          "amountIn": "0",
+          "amountOutEstimate": "0",
+          "amountOutMin": "0"
+        },
+        "error": null,
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403755,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0x9f3B020aA65E34A29496601dc0034dD57EE29d44",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": null,
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": "transaction was replaced (cancelled=true, reason=\"replaced\", replacement={ \"_type\": \"TransactionResponse\", \"accessList\": [  ], \"blobVersionedHashes\": null, \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"chainId\": \"1\", \"data\": \"0x791ac9470000000000000000000000000000000000000000000000000ea6a5399ca4c132000000000000000000000000000000000000000000000000001276378a32cab800000000000000000000000000000000000000000000000000000000000000a00000000000000000000000002ca6161d203ddf40dd51a168791d8c225ae0a4a300000000000000000000000000000000000000000000000000000000681624540000000000000000000000000000000000000000000000000000000000000002000000000000000000000000457a6dade9d30239f4269efbf0531ced0cec44a5000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\", \"from\": \"0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3\", \"gasLimit\": \"350000\", \"gasPrice\": \"2368321597\", \"hash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"index\": 19, \"maxFeePerBlobGas\": null, \"maxFeePerGas\": \"2390968413\", \"maxPriorityFeePerGas\": \"2000000000\", \"nonce\": 402, \"signature\": { \"_type\": \"signature\", \"networkV\": null, \"r\": \"0xa8f6cf266f896db03b0695a1fb11459abf6f17e9e981a05c1ed6e577e3b109e7\", \"s\": \"0x33b1f560069d3e728da84a902915162bda976363d07354ee749692b371851969\", \"v\": 28 }, \"to\": \"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\", \"type\": 2, \"value\": \"0\" }, hash=\"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", receipt={ \"_type\": \"TransactionReceipt\", \"blobGasPrice\": null, \"blobGasUsed\": null, \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"contractAddress\": null, \"cumulativeGasUsed\": \"1571044\", \"from\": \"0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3\", \"gasPrice\": \"2368321597\", \"gasUsed\": \"243600\", \"hash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"index\": 19, \"logs\": [ { \"_type\": \"log\", \"address\": \"0x457A6DADe9D30239f4269EFBf0531Ced0CeC44a5\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x0000000000000000000000000000000000000000000000000ea6a5399ca4c132\", \"index\": 28, \"removed\": null, \"topics\": [ \"0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925\", \"0x000000000000000000000000457a6dade9d30239f4269efbf0531ced0cec44a5\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0x457A6DADe9D30239f4269EFBf0531Ced0CeC44a5\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x0000000000000000000000000000000000000000000000000ea6a5399ca4c132\", \"index\": 29, \"removed\": null, \"topics\": [ \"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef\", \"0x000000000000000000000000457a6dade9d30239f4269efbf0531ced0cec44a5\", \"0x0000000000000000000000005950c5b411b926c16ebff2f4882041864f7c806d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0x457A6DADe9D30239f4269EFBf0531Ced0CeC44a5\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x0000000000000000000000000000000000000000000000000000000000000000\", \"index\": 30, \"removed\": null, \"topics\": [ \"0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925\", \"0x000000000000000000000000457a6dade9d30239f4269efbf0531ced0cec44a5\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x000000000000000000000000000000000000000000000000002589a45b503068\", \"index\": 31, \"removed\": null, \"topics\": [ \"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef\", \"0x0000000000000000000000005950c5b411b926c16ebff2f4882041864f7c806d\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0x5950C5b411b926C16EbFF2F4882041864f7c806d\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x0000000000000000000000000000000000000000000000068116bd83cc4aaa6200000000000000000000000000000000000000000000000010915c61211482a1\", \"index\": 32, \"removed\": null, \"topics\": [ \"0x1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0x5950C5b411b926C16EbFF2F4882041864f7c806d\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x0000000000000000000000000000000000000000000000000ea6a5399ca4c13200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002589a45b503068\", \"index\": 33, \"removed\": null, \"topics\": [ \"0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x000000000000000000000000000000000000000000000000002589a45b503068\", \"index\": 34, \"removed\": null, \"topics\": [ \"0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0x457A6DADe9D30239f4269EFBf0531Ced0CeC44a5\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x0000000000000000000000000000000000000000000000000ea6a5399ca4c132\", \"index\": 35, \"removed\": null, \"topics\": [ \"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef\", \"0x0000000000000000000000002ca6161d203ddf40dd51a168791d8c225ae0a4a3\", \"0x0000000000000000000000005950c5b411b926c16ebff2f4882041864f7c806d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0x457A6DADe9D30239f4269EFBf0531Ced0CeC44a5\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0xfffffffffffffffffffffffffffffffffffffffffffffffff1595ac6635b3ecd\", \"index\": 36, \"removed\": null, \"topics\": [ \"0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925\", \"0x0000000000000000000000002ca6161d203ddf40dd51a168791d8c225ae0a4a3\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x0000000000000000000000000000000000000000000000000024e2416384fd66\", \"index\": 37, \"removed\": null, \"topics\": [ \"0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef\", \"0x0000000000000000000000005950c5b411b926c16ebff2f4882041864f7c806d\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0x5950C5b411b926C16EbFF2F4882041864f7c806d\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x0000000000000000000000000000000000000000000000068fbd62bd68ef6b94000000000000000000000000000000000000000000000000106c7a1fbd8f853b\", \"index\": 38, \"removed\": null, \"topics\": [ \"0x1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0x5950C5b411b926C16EbFF2F4882041864f7c806d\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x0000000000000000000000000000000000000000000000000ea6a5399ca4c132000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000024e2416384fd66\", \"index\": 39, \"removed\": null, \"topics\": [ \"0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 }, { \"_type\": \"log\", \"address\": \"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\", \"blockHash\": \"0x44fa6219936f8c64ff3ffcba6bb289583380105521be01035b9a585d6ca2fd26\", \"blockNumber\": 22403774, \"data\": \"0x0000000000000000000000000000000000000000000000000024e2416384fd66\", \"index\": 40, \"removed\": null, \"topics\": [ \"0x7fcf532c15f0a6db0bd6d0e038bea71d30d808c7d98cb3bf7268a95bf5081b65\", \"0x0000000000000000000000007a250d5630b4cf539739df2c5dacb4c659f2488d\" ], \"transactionHash\": \"0x825501af258429cfab314338b67263b66ac6bca9b8eebfbec42b24bce7823d0e\", \"transactionIndex\": 19 } ], \"logsBloom\": \"0x00200000000000000000000080100000000000000000000000010000000000400000000000000000000000000000080002000040080000000000000000200000000000000000000100000008000000200000000000400000000002000000000000000000000000000000000000000000000008000000040000000050000000000000000000000080004000000000000000000000000000080000004000200000020004200000000000000000000000000000000000000000000000000000000000080002000000000000000000000000000000000000001000000002000020000010200000800100000000000000000000000000000000000000000000000000\", \"root\": null, \"status\": 1, \"to\": \"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\" }, code=TRANSACTION_REPLACED, version=6.13.4)",
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xea98d73fae3b1037c0495a7bd9eb465e27bf72c3",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x4f9e710d8122511371e2872aba45d8adff850873",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x5a9e7fc8709fa1e3314bf44aa0cbe349b79c5afd52a753e6e6d3a4310ca150e0",
+        "from": "0x3b72f5fa94f20ff0a0c482f26f7208b946a48406",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403772,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 128,
+          "found": 15,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 11.304920174000785,
+              "fetchSec": 2.5855930129997433,
+              "parseSec": 8.71920485000033,
+              "customParseSec": 0.00000890700053423643
+            }
+          }
+        },
+        "successDate": 1746281531,
+        "receivedDate": 1746281538166,
+        "getTokenHoldersCountDurationSec": 0.7163627700004727,
+        "findLpAddressDurationSec": 4.821518713000231,
+        "getTokenHoldersDurationSec": 0.1470524460012093,
+        "isKnownLpTokenDurationSec": 0.000009094000793993473,
+        "checkRouterDurationSec": 0.06054495899938047,
+        "decodeAddLiquidityDurationSec": 5.0292300559999426,
+        "snipeDate": 1746281543916,
+        "isPairCreated": true,
+        "buyCost": {
+          "costWETH": 0.010101010101010102,
+          "costUSD": 16.161616161616163
+        },
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      }
+    ],
+    "taxData": null,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": true,
+      "isTwoPercent": false,
+      "value": "10000000000000000000000000",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "fallback"
+    },
+    "reasonsToSell": [
+      {
+        "type": "devApproveLP",
+        "hash": "0x79ebc26229e5b6120e47e1bc2f59642a9551b0482d0a323d16bdd66e9c4c897a",
+        "transactionStatus": "confirmed",
+        "message": "Approval Liquidity Pool detected from the developer's address (0x3b72f5fa94f20ff0a0c482f26f7208b946a48406). This may indicate developer setting or changing allowances."
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403778,
+        22403779,
+        22403780,
+        22403781,
+        22403782
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403782
+    },
+    "priceTracking": {
+      "buyBlock": 22403776,
+      "retryUntilBlock": 22403776,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "31622776601683793319988",
+      "currentLpSupply": "31622776601683793319988",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "devApproveLp",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      },
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x455925ebf87dc84931554db51d9f759a6c866729",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x803056dd1401a4b57e26f0833a4712697f7f9f4a",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": {
+      "isScam": false,
+      "message": "Tidak ditemukan adanya bypass allowance atau inject allowance. TransferFrom berfungsi sebagaimana mestinya dengan mengurangi allowance pengguna. Tidak ada fungsi yang dapat meningkatkan allowance tanpa persetujuan pemilik.",
+      "blacklistBuyCount": 10,
+      "deadBlockCount": null
+    },
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x18ac0db6db3d7900b1ce4673612cc007b912601960f33f8ef2f596210d184cdf",
+        "from": "0xc1e832f2b9253a442d12130ce0aee3c411fce110",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403800,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 1,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 4.643889903999865,
+              "fetchSec": 0.2595705719999969,
+              "parseSec": 0.0003820150000974536,
+              "customParseSec": 0.000009910999797284603
+            }
+          }
+        },
+        "successDate": 1746281867,
+        "receivedDate": 1746281870400,
+        "getTokenHoldersCountDurationSec": 0.621807097999379,
+        "findLpAddressDurationSec": 2.909879239999689,
+        "getTokenHoldersDurationSec": 0.13511130200047045,
+        "isKnownLpTokenDurationSec": 0.00000861700065433979,
+        "checkRouterDurationSec": 0.023118104000575842,
+        "decodeAddLiquidityDurationSec": 3.06821497700084,
+        "snipeDate": 1746281874092,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.04725835680378348,
+          "costUSD": 75.61337088605356
+        }
+      }
+    ],
+    "taxData": 0,
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": false,
+      "isTwoPercent": true,
+      "value": "200000000000000000",
+      "functionName": "_maxTxAmount",
+      "decimals": 9,
+      "approach": "unifiedFunctionCall"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403800,
+        22403801,
+        22403802,
+        22403803,
+        22403804
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403804
+    },
+    "priceTracking": {
+      "buyBlock": 22403802,
+      "retryUntilBlock": 22403804,
+      "buyValueWETH": "5082949970388200",
+      "buyTokenAmount": "0.022701901035554205",
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "2122027332528966272",
+      "currentLpSupply": "2122027332528966272",
+      "flags": {}
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x562ffb5481c0c7090d98c8ba12f8c5ef9f81a46b4df99529cd4e9c2d7ec01aa8",
+          "blockNumber": 22403801,
+          "from": "0xFd620e156Af5639DE1C16330b281A758CBab5F24",
+          "to": "0x2c528a6d9DE4FB21e66b61f473451130128c4dAa",
+          "amountIn": "0",
+          "amountOutEstimate": "0",
+          "amountOutMin": "0"
+        },
+        "error": null,
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403801,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0x455925ebf87Dc84931554DB51d9F759a6C866729",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": null,
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": "transaction execution reverted (action=\"sendTransaction\", data=null, reason=null, invocation=null, revert=null, transaction={ \"data\": \"\", \"from\": \"0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3\", \"to\": \"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\" }, receipt={ \"_type\": \"TransactionReceipt\", \"blobGasPrice\": null, \"blobGasUsed\": null, \"blockHash\": \"0x26a0a0c60dc7b0ebf36bda59e8e4ef1db14bcb39a8145f12f43ea01cfbd013a5\", \"blockNumber\": 22403806, \"contractAddress\": null, \"cumulativeGasUsed\": \"12305370\", \"from\": \"0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3\", \"gasPrice\": \"2404433816\", \"gasUsed\": \"33112\", \"hash\": \"0xb322b9dd32e8209057f666c7f6a3d6c0f93b0d865ef8803eb87b81d685fd2d59\", \"index\": 62, \"logs\": [  ], \"logsBloom\": \"0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\", \"root\": null, \"status\": 0, \"to\": \"0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D\" }, code=CALL_EXCEPTION, version=6.13.4)",
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xa1a7729720630cdcc2a4832a1e5731646cc62051",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x895e24e5fd80f2ff3c81e9a85ea576d40f424f63",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": {
+      "isScam": false,
+      "message": "Tidak ditemukan adanya mekanisme bypass allowance atau inject allowance dalam kode. Fungsi `transferFrom` mengikuti standar ERC20 dengan melakukan pengecekan balance dan allowance sebelum transfer, dan tidak ada cara untuk memodifikasi allowance tanpa persetujuan pemilik.",
+      "blacklistBuyCount": null,
+      "deadBlockCount": null
+    },
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xad2f076a003e45bc278f3c84bac9140baf3f5fe80619e7090bf03d413b94b858",
+        "from": "0x08d826765d17ef1ddefd211de41ea0f18b6b4c7f",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403803,
+        "tokenHoldersCount": 1,
+        "traceRemoveLiq": {
+          "total": 7228,
+          "found": 1056,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 6.459693552000448,
+              "fetchSec": 3.0989144259998573,
+              "parseSec": 3.360671896000393,
+              "customParseSec": 0.00001011200062930584
+            }
+          }
+        },
+        "successDate": 1746281903,
+        "receivedDate": 1746281907998,
+        "getTokenHoldersCountDurationSec": 0.7873909650007263,
+        "findLpAddressDurationSec": 3.335592313000001,
+        "getTokenHoldersDurationSec": 0.14386015999875962,
+        "isKnownLpTokenDurationSec": 0.00000885200034826994,
+        "checkRouterDurationSec": 0.060073699000291525,
+        "decodeAddLiquidityDurationSec": 3.5396500550005583,
+        "snipeDate": 1746281912330,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0.010101010101010102,
+          "costUSD": 16.161616161616163
+        }
+      }
+    ],
+    "taxData": 0,
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": true,
+      "isTwoPercent": false,
+      "value": "310000000000000000000000000",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "fallback"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403815,
+        22403816,
+        22403817,
+        22403818,
+        22403819
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403819
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Fail filter: remove liquidity history is not zero (found=1056)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403807,
+      "retryUntilBlock": 22403807,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "176068168616590091457692",
+      "currentLpSupply": "176068168616590091457692",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xbe18f3b7102c93b546c1594ab9b73e8727dbebfc",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x2e0e70f78d6832d954639bd36506b9234a2d528d",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x7ba533200434ce701be00871d8e8ed24b943ed4c3517a4014ee5c4fb12e38fe9",
+        "from": "0xc8b111275b21b7ab0d76cb4b5682c0ae10216e7a",
+        "ownershipTransferredFound": false,
+        "isBundleContractCreationAndAddLiq": true,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403805,
+        "tokenHoldersCount": 43,
+        "traceRemoveLiq": {
+          "total": 4,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 9.839512164000421,
+              "fetchSec": 0.6655532439993694,
+              "parseSec": 0.5905173680000008,
+              "customParseSec": 0.000002581999637186527
+            }
+          }
+        },
+        "successDate": 1746281927,
+        "receivedDate": 1746281932988,
+        "getTokenHoldersCountDurationSec": 0.6351701980000362,
+        "findLpAddressDurationSec": 18.577173959999346,
+        "getTokenHoldersDurationSec": 0.20917766300030052,
+        "isKnownLpTokenDurationSec": 0.000011924000456929207,
+        "checkRouterDurationSec": 0.03330435900017619,
+        "decodeAddLiquidityDurationSec": 18.819746023999528,
+        "snipeDate": 1746281952782,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 8,
+        "value": 40,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [],
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Token holders count not < 20 (count=43)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403810,
+      "retryUntilBlock": 22403810,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "991451497895201058",
+      "currentLpSupply": "991941717054705028",
+      "flags": {}
+    },
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403810,
+        22403811,
+        22403812,
+        22403813,
+        22403814
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403814
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x37b32d22fd8862f40757091edd51279b9354373b",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0xd2e9e0ee57ccbc129e73ca51fd0c40a7c5bd038c",
+    "decimal": 9,
+    "snipeBlock": 1,
+    "aiAnalysis": {
+      "isScam": false,
+      "message": "Tidak ditemukan indikasi bypass allowance atau inject allowance. TransferFrom berfungsi sebagaimana mestinya, mengurangi allowance setelah transfer.",
+      "blacklistBuyCount": null,
+      "deadBlockCount": null
+    },
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x6beb4bd46023582ef6431fc266d5b3be93c960e90f852101e98f15fe04a27159",
+        "from": "0xfb5f6404ef142e3913ae0fa51333c12ba0b0a61a",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "1.0",
+          "threshold": "0.5",
+          "isBelowThreshold": false
+        },
+        "blockNumber": 22403845,
+        "tokenHoldersCount": 8,
+        "traceRemoveLiq": {
+          "total": 1,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 1.819791561000049,
+              "fetchSec": 1.819228927999735,
+              "parseSec": 0.0003581699999049306,
+              "customParseSec": 0.000008976000361144542
+            }
+          }
+        },
+        "successDate": 1746282407,
+        "receivedDate": 1746282415587,
+        "getTokenHoldersCountDurationSec": 0.7454576550005004,
+        "findLpAddressDurationSec": 19.81204041500017,
+        "getTokenHoldersDurationSec": 1.3864570100000129,
+        "isKnownLpTokenDurationSec": 0.00000785400066524744,
+        "checkRouterDurationSec": 0.040214811999350786,
+        "decodeAddLiquidityDurationSec": 21.238831039000303,
+        "snipeDate": 1746282437574,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      }
+    ],
+    "taxData": 0,
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": false,
+      "isTwoPercent": true,
+      "value": "8413800000000000000",
+      "functionName": "_maxTxAmount",
+      "decimals": 9,
+      "approach": "unifiedFunctionCall"
+    },
+    "reasonsToSell": [
+      {
+        "type": "devApproveLP",
+        "hash": "0xe696f75d0394ee5999e743755033f74041de84e5afd2845309817e95f8a779cc",
+        "transactionStatus": "confirmed",
+        "message": "Approval Liquidity Pool detected from the developer's address (0xfb5f6404ef142e3913ae0fa51333c12ba0b0a61a). This may indicate developer setting or changing allowances."
+      },
+      {
+        "type": "removeLiquidity",
+        "hash": "0x178746ffec89209bb3d33068d261dbd362fe323b49041ad8cb90b3a154e6fec1",
+        "transactionStatus": "confirmed",
+        "message": "Remove liquidity detected. This could indicate higher risk for this token. (Tx To: 0x7a250d5630b4cf539739df2c5dacb4c659f2488d)",
+        "burnedLPAmount": "18068077927660151750",
+        "totalSupplyBefore": "18068077927660152750",
+        "percentRemoved": 99.99999999999999
+      }
+    ],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403855,
+        22403856,
+        22403858,
+        22403857,
+        22403859
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403859
+    },
+    "priceTracking": {
+      "buyBlock": 22403849,
+      "retryUntilBlock": 22403851,
+      "buyValueWETH": "6502282386553775",
+      "buyTokenAmount": "1.787313595707062",
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "18068077927660152750",
+      "currentLpSupply": "18068077927660152750",
+      "flags": {
+        "doubleReached": true
+      }
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x5556eb99b472427541475a3fdcd7f7e84bd41673f2dc3461ef3fc441797d0282",
+          "blockNumber": 22403848,
+          "from": "0xFd620e156Af5639DE1C16330b281A758CBab5F24",
+          "to": "0x2c528a6d9DE4FB21e66b61f473451130128c4dAa",
+          "amountIn": "0",
+          "amountOutEstimate": "0",
+          "amountOutMin": "0"
+        },
+        "error": null,
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403848,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0x37b32d22fD8862f40757091edD51279B9354373b",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "x2Reached",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": true,
+        "receipt": {
+          "hash": "0x22c2b91fe5f7463968b08fe4d445527264fe223151a1f1669178822006e2464f",
+          "blockNumber": 22403853,
+          "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+          "to": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+          "usedSlippage": "50",
+          "amountOutEstimate": "19154037764033098",
+          "amountOutMin": "9577018882016549"
+        },
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18",
+    "nativeToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "router": "0x7a250d5630b4cf539739df2c5dacb4c659f2488d",
+    "lpAddress": "0x859f7092f56c43bb48bb46de7119d9c799716cdf",
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0xb1095ee340f4ade935a9d5cdd3b95d0742bcdd27743393e6370aab5dbd328c1d",
+        "from": "0x5d53f570362d45bd3ab88eaa5d9de694ea10148b",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "0.049215872256368382",
+          "threshold": "0.5",
+          "isBelowThreshold": true
+        },
+        "blockNumber": 22403894,
+        "tokenHoldersCount": 44473,
+        "traceRemoveLiq": {
+          "total": 1,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 0.8190538510009646,
+              "fetchSec": 0.8186171440016479,
+              "parseSec": 0.00042295999825000765,
+              "customParseSec": 0.000006004998460412026
+            }
+          }
+        },
+        "successDate": 1746282995,
+        "receivedDate": 1746283001185,
+        "getTokenHoldersCountDurationSec": 0.6819680469995365,
+        "findLpAddressDurationSec": 4.955532844000496,
+        "getTokenHoldersDurationSec": 0.13743346200045198,
+        "isKnownLpTokenDurationSec": 0.000008484999649226666,
+        "checkRouterDurationSec": 0.04966263200063258,
+        "decodeAddLiquidityDurationSec": 5.142722686999478,
+        "snipeDate": 1746283007011,
+        "isPairCreated": false,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true,
+        "buyCost": {
+          "costWETH": 0,
+          "costUSD": 0
+        }
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 7,
+        "value": 21,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": false,
+      "isOnePercent": false,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": null,
+      "decimals": 18,
+      "approach": "error",
+      "errorMessage": "Cannot convert Max calls per sec rate limit reached (5/sec) to a BigInt"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403894,
+        22403895,
+        22403896,
+        22403897,
+        22403898
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403898
+    },
+    "snipeInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": false,
+          "failReason": "Token holders count not < 20 (count=44473)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null,
+        "approval": null
+      }
+    ],
+    "priceTracking": {
+      "buyBlock": 22403898,
+      "retryUntilBlock": 22403898,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": "90134985771284832333849",
+      "currentLpSupply": "90134985771284832333849",
+      "flags": {}
+    },
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  },
+  {
+    "tokenAddress": "0x02306b1ba9b981d8c0706311df92ca66a0bfaf82",
+    "nativeToken": "0x84a29b6cb78361b4cf09114542350d2a7650ebaf",
+    "router": "0x6a7c92bddb8d695cfdff5d47487a456cc46e0ee5",
+    "lpAddress": null,
+    "decimal": 18,
+    "snipeBlock": 1,
+    "aiAnalysis": null,
+    "trigger": [
+      {
+        "type": "addLiquidity",
+        "hash": "0x97bb969523821d1b496677e566b82fb31430841842c34205bdd13dd2cee26c4b",
+        "from": "0x9aff0b0d211e4415bf134ca6ebbe630e42e7c4c5",
+        "ownershipTransferredFound": false,
+        "wethValue": {
+          "value": "0",
+          "threshold": "0.5",
+          "isBelowThreshold": true
+        },
+        "blockNumber": 22403912,
+        "tokenHoldersCount": 2,
+        "traceRemoveLiq": {
+          "total": 193,
+          "found": 0,
+          "measurements": {
+            "getNormalTxs": {
+              "totalSec": 20.779818779999392,
+              "fetchSec": 3.18873832600005,
+              "parseSec": 17.59092765299976,
+              "customParseSec": 0.000004110999405384064
+            }
+          }
+        },
+        "successDate": 1746283211,
+        "receivedDate": 1746283229511,
+        "getTokenHoldersCountDurationSec": 0.7286372290002182,
+        "findLpAddressDurationSec": 7.258881440000609,
+        "getTokenHoldersDurationSec": 0.06830997800081968,
+        "isKnownLpTokenDurationSec": 0.00000902700051665306,
+        "checkRouterDurationSec": 0.08548405299987644,
+        "decodeAddLiquidityDurationSec": 7.412774011000059,
+        "snipeDate": 1746283237656,
+        "isPairCreated": true,
+        "bribeData": [],
+        "isBribe": false,
+        "bribeQueried": true
+      }
+    ],
+    "taxData": [
+      {
+        "slot": 3,
+        "value": 18,
+        "type": "storageTax"
+      }
+    ],
+    "txTokenAmount": {
+      "isMaxTx": true,
+      "isOnePercent": true,
+      "isTwoPercent": false,
+      "value": "0",
+      "functionName": "slot#19",
+      "decimals": 18,
+      "approach": "slotApproach"
+    },
+    "reasonsToSell": [],
+    "cutlossInfo": {
+      "enabled": true,
+      "thresholdBlocks": 5,
+      "idleBlocks": [
+        22403912,
+        22403914,
+        22403915,
+        22403916,
+        22403917
+      ],
+      "cutlossTriggered": true,
+      "cutlossReason": "INACTIVITY",
+      "cutlossTxHash": "txHashTestSimulate",
+      "cutlossBlock": 22403917
+    },
+    "priceTracking": {
+      "buyBlock": 22403917,
+      "retryUntilBlock": 22403917,
+      "buyValueWETH": null,
+      "buyTokenAmount": null,
+      "maxTryPerBlock": 1,
+      "targetMultiplier": 2,
+      "initialLpSupply": null,
+      "currentLpSupply": null,
+      "flags": {}
+    },
+    "snipeInfo": [
+      {
+        "method": "PUBLIC",
+        "trigger": "addLiquidity",
+        "filter": {
+          "pass": true,
+          "failReason": null,
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": "TX tidak terkirim",
+        "walletName": "walletGroup1Block1",
+        "buyerWallet": "0xfd620e156af5639de1c16330b281a758cbab5f24",
+        "recipientWallet": "0x2ca6161d203ddf40dd51a168791d8c225ae0a4a3",
+        "approval": {
+          "success": true,
+          "receipt": {
+            "blockNumber": 22403915,
+            "from": "0x2Ca6161d203ddf40dD51a168791d8C225AE0A4a3",
+            "to": "0x02306B1BA9B981D8C0706311dF92Ca66a0bFAF82",
+            "approvedAmount": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+          }
+        }
+      }
+    ],
+    "sellInfo": [
+      {
+        "method": "SKIP",
+        "trigger": "INACTIVITY",
+        "filter": {
+          "pass": false,
+          "failReason": "No successful buy attempt found (or no receipt)",
+          "options": {}
+        },
+        "success": false,
+        "receipt": null,
+        "error": null,
+        "walletName": null,
+        "buyerWallet": null,
+        "recipientWallet": null
+      }
+    ]
+  }
+]
